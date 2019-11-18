@@ -57,3 +57,10 @@ function NotTest() {
 function  NotTestTrue() {
     document.getElementById("NotFalse").innerHTML = !(11 > 92);
 }
+
+function RideFunction() {
+    var Height, CanRide;
+    Height = document.getElementById("Height").value;
+    CanRide = (Height < 52) ? "You are too short":"You are tall enough";
+    document.getElementById("Ride").innerHTML = CanRide + " to ride.";
+}
