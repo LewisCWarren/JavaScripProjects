@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML Template</title>
+        <script src="JS/BasicJavaScript9.js"></script>
+        <link rel="stylesheet" type="text/css" href="BasicCSS2.css">
+    </head>
+    <body>
+
+        <p>Set your alarm for the desired time in seconds please</p>
+        <input id="TimeSet" value="" />
+        <button onclick="Countdown()">Set Timer</button>
+        <p id="Time"></p>
+
+
+
+        <div class="slideshow-container">
+
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="JSImages/TheMandalorian1.jpg" style="width:100%">
+                  <div class="text">New show, The Mandalorian</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="JSImages/TheMandalorian4.jpg" style="width:100%">
+                  <div class="text">Best thing to happen to Star Wars since Disney bought it</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="JSImages/TheMandalorian5.jpg" style="width:100%">
+                  <div class="text">Takes place 5 years after Episode 6</div>
+                </div>
+              
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+            
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+    </body>
+</html>
